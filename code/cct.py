@@ -7,7 +7,7 @@ def load_plant_knowledge_data(filepath):
     return df.values
 
 # Load data
-data = load_plant_knowledge_data("cct-midterm/data/plant_knowledge.csv")
+data = load_plant_knowledge_data("data/plant_knowledge.csv")
 N, M = data.shape  # Number of informants and items
 
 import pymc as pm
